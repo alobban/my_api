@@ -7,7 +7,7 @@ gem 'rails-api'
 
 gem 'spring', :group => :development
 
-group :development
+group :development do
 	gem 'sqlite3'
 end
 
