@@ -13,12 +13,6 @@
 
 ActiveRecord::Schema.define(version: 20141014212558) do
 
-  create_table "giftcards", force: true do |t|
-    t.string   "name"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
   create_table "listings", force: true do |t|
     t.integer  "product_id"
     t.text     "title"
